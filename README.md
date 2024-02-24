@@ -1,76 +1,38 @@
-# NITRO Promo Gen 'V3
-
-NITRO Promo Gen V3, Discord Nitro promo kodları oluşturmak için bir araçtır.
-
-## Kurulum
-
-Projeyi çalıştırmak için bilgisayarınızda Python'un yüklü olması gerekmektedir.
-
-1. Proje dosyalarını bu depodan klonlayın veya ZIP olarak indirin.
-2. Terminal veya komut istemcisinde proje dizinine gidin.
-3. Gereksinimleri yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
-4. Uygulamayı başlatmak için `python main.py` komutunu çalıştırın.
-
-## Kullanım
-
-- Kullanıcı bir sayı girmek suretiyle üretilecek promo kodlarının miktarını belirtmelidir.
-- Üret butonuna basarak belirtilen sayıda promo kodu oluşturulur ve output alanına yazdırılır.
-- Üretilen promo kodları otomatik olarak `promo.txt` dosyasına kaydedilir.
-- Copy butonu kullanılarak en son üretilen promo kodu panoya kopyalanabilir.
-
-## Özellikler
-
-- Basit arayüz.
-- Otomatik promo kodu oluşturma.
-- Oluşturulan kodların dosyaya kaydedilmesi.
-- Panoya kopyalama özelliği.
-
-## Katkıda Bulunma
-
-1. Bu repo'yu fork edin.
-2. Yeni bir özellik için bir dal (`branch`) oluşturun: `git checkout -b yeni-özellik`
-3. Değişikliklerinizi yapın ve bunları (`commit`) gönderin: `git commit -am 'Yeni özellik eklendi'`
-4. Dalınızı ana dalınızın üstüne (`upstream`) gönderin: `git push origin yeni-özellik`
-5. Bir Birleştirme İsteği (`Pull Request`) oluşturun.
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atın.
 # NITRO Promo Gen V3
 
-NITRO Promo Gen V3, Discord Nitro promo kodları oluşturmak için basit bir araçtır.
+NITRO Promo Gen V3 is a tool for generating Discord Nitro promo codes.
 
-## Kurulum
+## Installation
 
-Projeyi çalıştırmak için Python'un yüklü olması gerekmektedir.
+Python must be installed on your computer to run the project.
 
-1. Proje dosyalarını bu depodan klonlayın veya ZIP olarak indirin.
-2. Terminal veya komut istemcisinde proje dizinine gidin.
-3. Gereksinimleri yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
-4. Uygulamayı başlatmak için `python main.py` komutunu çalıştırın.
+1. Clone or download the project files from this repository.
+2. Navigate to the project directory in your terminal or command prompt.
+3. Install the requirements by running the command `pip install -r requirements.txt`.
+4. Start the application by running the command `python nitro.py`.
 
-## Kullanım
+## Usage
 
-- Kullanıcı bir sayı girmek suretiyle üretilecek promo kodlarının miktarını belirtmelidir.
-- Üret butonuna basarak belirtilen sayıda promo kodu oluşturulur ve output alanına yazdırılır.
-- Üretilen promo kodları otomatik olarak `promo.txt` dosyasına kaydedilir.
-- Copy butonu kullanılarak en son üretilen promo kodu panoya kopyalanabilir.
+- The user must specify the quantity of promo codes to generate by entering a number.
+- Clicking the "Generate" button will generate the specified number of promo codes and display them in the output area.
+- The generated promo codes are automatically saved to the `promo.txt` file.
+- The last generated promo code can be copied to the clipboard using the Copy button.
 
-## Özellikler
+## Features
 
-- Basit arayüz.
-- Otomatik promo kodu oluşturma.
-- Oluşturulan kodların dosyaya kaydedilmesi.
-- Panoya kopyalama özelliği.
+- Simple user interface.
+- Automatic generation of promo codes.
+- Saving generated codes to a file.
+- Copying the last generated promo code to the clipboard.
 
-## Katkıda Bulunma
+## Contributing
 
-1. Bu repo'yu fork edin.
-2. Yeni bir özellik için bir dal (`branch`) oluşturun: `git checkout -b yeni-özellik`
-3. Değişikliklerinizi yapın ve bunları (`commit`) gönderin: `git commit -am 'Yeni özellik eklendi'`
-4. Dalınızı ana dalınızın üstüne (`upstream`) gönderin: `git push origin yeni-özellik`
-5. Bir Birleştirme İsteği (`Pull Request`) oluşturun.
+1. Fork this repository.
+2. Create a new branch for a new feature: `git checkout -b new-feature`
+3. Make changes and commit them: `git commit -am 'Added a new feature'`
+4. Push your branch to the remote repository: `git push origin new-feature`
+5. Create a new Pull Request.
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atın.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
